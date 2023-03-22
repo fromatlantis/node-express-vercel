@@ -4,7 +4,7 @@ const home = require("./routes/home");
 
 // Middlewares
 const app = express();
-app.use(express.json());
+
 
 // Routes
 app.use("/home", home);
